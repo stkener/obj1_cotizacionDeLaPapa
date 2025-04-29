@@ -1,11 +1,15 @@
 import papa.*
 
-/*
 
 test "Importe Total papa en situacion incial: cantidad 100 , calidad buena, impuesto simple y retencion nula"{
+	papa.cantidad(100)
+	papa.calidad(calidadBuena)
+	papa.impuesto(impuestoSimple)
+	papa.retencion(derechoExportacionNulo)
 	assert.equals(330, papa.importeTotal())
 }
 
+/*
 test "Importe Total con 100 papas, calidad premium, impuesto simple y retencion privatizadora"{
 	papa.cantidad(100)
 	papa.calidad(calidadPremium)
